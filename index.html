@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷網站</title>
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Leana</div>
+        <div class="menu">Menu</div>
+        <nav>
+            <ol>
+                <li><a href="">About</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ol>
+        </nav>
+
+    </header>
+    <!-- 姓名&動畫資料 -->
+    <section id="animate">
+        <div class="title">
+            <h2>Leana Chen</h2>
+            <p>Best wishes</p>
+        </div>
+        <div class="square"></div>
+    </section>
+    <!-- 個人資料 -->
+    <section id="introduce">
+        <div class="container">
+            <div class="person"><img src="imgs/mario.jpg" alt=""></div>
+            <div class="describe">
+                <h2>關於我</h2>
+                <p>我是陳彥寧，在學期間主要修習的是社工領域相關課程，且完成了400小時的社工實習時數。除了社工領域外，想再多精進自己的技能來拓展職業發展。
+                    <br>
+                    畢業後留校工作，在宿舍服務組主要從事境外生輔導的工作，有許多與外籍生溝通的經驗，也希望結合這些經驗後能對未來的學習有更多幫助。
+                </p>
+                <h2>學歷</h2>
+                <p>元智大學社會暨政策科學 學士</p>
+                <h2>技能</h2>
+                <p>多益835分</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工作經歷 -->
+    <section id="work">
+        <div class="container">
+            <h2>工作經歷</h2>
+            <ul class="job">
+                <li>
+                    <div class="job-logo"><img src="imgs/lifeline.jpg" alt=""></div>
+                    <div class="job-name">桃園生命線(實習)</div>
+                </li>
+                <li>
+                    <div class="job-logo"><img src="imgs/child.png"></div>
+                    <div class="job-name">桃園親子館(實習)</div>
+                </li>
+                <li>
+                    <div class="job-logo"><img src="imgs/chang.jpg"></div>
+                    <div class="job-name">張老師中心(實習)</div>
+                </li>
+                <li>
+                    <div class="job-logo"><img src="imgs/YZU.png"></div>
+                    <div class="job-name">元智大學學生事務處 宿舍服務組</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- 相片集 -->
+    <section class="portofolio">
+        <h2>相片集</h2>
+        <div class="container-grid">
+            <div class="card pic1">
+                <div class="side">
+                    <img src="imgs/graduate.jpg" alt="">
+                </div>
+                <div class="side back">pic1</div>
+            </div>
+            <div class="card pic2">
+                <div class="side">
+                    <img src="imgs/kimono.jpg" alt="">
+                </div>
+                <div class="side back">pic2</div>
+            </div>
+            <div class="card pic3">
+                <div class="side">
+                    <img src="imgs/cat7.jpg" alt="">
+                </div>
+                <div class="side back">pic3</div>
+            </div>
+            <div class="card pic4">
+                <div class="side">
+                    <img src="imgs/shu.jpg" alt="">
+                </div>
+                <div class="side back">pic4</div>
+            </div>
+            <div class="card pic5">
+                <div class="side">
+                    <img src="imgs/me.jpg" alt="">
+                </div>
+                <div class="side back">pic5</div>
+            </div>
+            <div class="card pic7">
+                <div class="side">
+                    <img src="imgs/cat3.jpg" alt="">
+                </div>
+                <div class="side back">pic6</div>
+            </div>
+            <div class="card pic6">
+                <div class="side">
+                    <img src="imgs/gradcat.jpg" alt="">
+                </div>
+                <div class="side back">pic7</div>
+            </div>
+            <div class="card pic8">
+                <div class="side">
+                    <img src="imgs/hotpot.jpg" alt="">
+                </div>
+                <div class="side back">pic8</div>
+            </div>
+            <div class="card pic9">
+                <div class="side">
+                    <img src="imgs/uki.jpg" alt="">
+                </div>
+                <div class="side back">pic9</div>
+            </div>
+            <div class="card">
+                <div class="side">
+                    <img src="imgs/YCSH.jpg" alt="">
+                </div>
+                <div class="side back">pic10</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 表單 -->
+    <section class="contact">
+        <div id="container">
+            <div class="w50">
+                <h2>聯絡方式</h2>
+                <ul>
+                    <li><i class="fa-solid fa-mobile-button"></i>Line:yanning70911</li>
+                    <li><i class="fa-brands fa-instagram"></i>IG:yanniao0827</li>
+                    <li><i class="fa-solid fa-envelope"></i>Mail:yanniing0113niao@gmail.com</li>
+                </ul>
+            </div>
+            <div class="w50">
+                <form action="" id="contactform">
+                    <div class="formgroup">
+                        <label for="Name">姓名:</label>
+                        <input type="text" name="name" id="Name">
+                    </div>
+                    <div class="formgroup">
+                        <label for="Email">Email:</label>
+                        <input type="email" name="email" id="Email">
+                    </div>
+                    <div class="formgroup">
+                        <label for="Line">line:</label>
+                        <input type="text" name="line" id="Line">
+                    </div>
+                    <div class="formgroup">
+                        <label for="message">訊息</label>
+                        <textarea name="message" id="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="forrmgroup">
+                        <button type="submit" class="btn-submit">確定送出</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>Copyright &copy 2024</footer>
+</body>
+
+</html>
